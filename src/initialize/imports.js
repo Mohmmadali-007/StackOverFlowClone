@@ -5,6 +5,7 @@ const expressSwaggerGenerator = require('express-swagger-generator');
 // routes
 const testRoute = require('../modules/test/test.routes');
 const userRoute = require('../modules/user/user.routes');
+const questionRoute = require('../modules/question/question.routes');
 
 
 //middlewares
@@ -41,6 +42,7 @@ const options = {
 const initialize = (app) => {
   app.use('/api/test', testRoute);
   app.use('/api/user', userRoute);
+  app.use('/api/question', questionRoute);
 
   const expressSwagger = expressSwaggerGenerator(app);
   expressSwagger(options);

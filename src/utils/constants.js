@@ -19,6 +19,13 @@ module.exports = {
     TEST: {
       CREATED: 'Test record created',
     },
+    QUESTION: {
+      CREATED: 'Question Added',
+      NOT_FOUND: 'Question Not found at id',
+      UPDATED: 'Question Updated',
+      DELETED: 'Question Deleted',
+      LIST: 'Question LISTED',
+    },
     GENERAL: {
       SOMETHING_WENT_WRONG: 'Sorry, something went wrong.',
       VALIDATION_FAILED: 'Request data is invalid.',

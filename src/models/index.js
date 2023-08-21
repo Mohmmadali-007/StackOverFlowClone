@@ -41,6 +41,7 @@ exports.getSqlConnection = () => {
     Test: seqInstance.import('./models/test.model.js'),
     Log: seqInstance.import('./models/log.model.js'),
     User: seqInstance.import('./models/user.model.js'),
+    Question: seqInstance.import('./models/question.model.js'),
   };
   return seqInstance;
 };
