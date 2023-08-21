@@ -6,6 +6,7 @@ exports.questionValidator = {
     question: Joi.string().required(),
     answer: Joi.string().allow(),
     comment: Joi.string().allow(),
+    userId : Joi.string().required()
   },
   list: {
     id: Joi.number().allow(),

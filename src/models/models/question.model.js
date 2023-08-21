@@ -21,6 +21,9 @@ module.exports = (sequelize, DataTypes) => {
       comment: {
         type: Sequelize.STRING(500),
       },
+      userId: {
+        type: Sequelize.INTEGER(20),
+      },
       createdAt: {
         type: DataTypes.DATE,
         defaultValue: Sequelize.NOW,
