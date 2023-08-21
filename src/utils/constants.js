@@ -19,23 +19,6 @@ module.exports = {
     TEST: {
       CREATED: 'Test record created',
     },
-    DOMAIN: {
-      CREATED: 'Domain record created',
-      GETING: 'This is Domain DATA',
-      UPDATED: 'The Domain Data is updated successfully',
-      DELETED: 'The Domain Data is Deleted successfully',
-      MISSING: 'DATA MISSING',
-      NOT_FOUND: 'Data Not Found At ID '
-    },
-    COMPANY: {
-      CREATED: 'Company record created',
-      GETING: 'This is Company DATA',
-      GETINGID: 'This is Company Data at given ID',
-      MISSING: 'DATA MISSING',
-      NOT_FOUND: 'Data Not Found At ID ',
-      UPDATE_SUCCESS: 'Data Updated Successfully',
-      REMOVE_SUCCESS: 'Data Deleted Successfully'
-    },
     GENERAL: {
       SOMETHING_WENT_WRONG: 'Sorry, something went wrong.',
       VALIDATION_FAILED: 'Request data is invalid.',
